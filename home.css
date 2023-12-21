@@ -1,0 +1,100 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    background: url(https://wallpaperaccess.com/full/4980824.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(115, 255, 0);
+    font-size: 1.6rem;
+}
+
+a:hover {
+    color: rgb(255, 3, 3);
+}
+
+header {
+    position: relative;
+    padding: 0 2rem;
+}
+
+.navbar {
+    font-size: 1.5rem;
+    height: 70px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: yellow;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.navbar .links {
+    display: flex;
+    gap: 4rem;
+}
+
+section#hero {
+    font-weight: bold;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center
+}
+
+#hero h1{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 0, 0)
+}
+#hero p {
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    color: rgb(20, 9, 172);
+}
+.action_btn {
+    background-color: orange;
+    color: #fff;
+    padding: 2rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 1.7rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2 ease;
+}
+
+.action_btn:hover {
+    scale: 1.05;
+    color: #fff;
+}
+
+.action_btn:active {
+    scale: 0.95;
+}
